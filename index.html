@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Encriptador V3</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Juego de Encriptado</h1>
+      <div class="about">
+        <a class="about__btn" href="#">about</a>
+      </div>
+      <main class="display">
+        <div class="display__input">
+          <textarea
+            class="display__input-text"
+            placeholder="Write your text here..."
+          ></textarea>
+          <div class="buttons">
+            <button class="btn btn-encript">
+              <ion-icon class="btn-icon" name="lock-closed-outline"> </ion-icon>
+              <span> Encript </span>
+            </button>
+            <button class="btn btn-decript">
+              <ion-icon class="btn-icon" name="lock-open-outline"> </ion-icon>
+              <span> Decript </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="display__output">
+          <div class="display__output-box hidden">
+            <p class="display__output-text">Resultado</p>
+            <button class="btn btn-copy">Copy/Clear</button>
+          </div>
+          <div class="display__output-img">
+            <svg
+              class="display__output-img-svg"
+              viewBox="0 0 36 36"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--twemoji"
+              preserveAspectRatio="xMidYMid meet"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill="#9AAAB4"
+                  d="M27.388 24.642L24.56 27.47l-4.95-4.95l2.828-2.828z"
+                ></path>
+                <path
+                  fill="#66757F"
+                  d="M34.683 29.11l-5.879-5.879a2 2 0 0 0-2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l5.879 5.879a4 4 0 1 0 5.656-5.656z"
+                ></path>
+                <circle
+                  fill="#8899A6"
+                  cx="13.586"
+                  cy="13.669"
+                  r="13.5"
+                ></circle>
+                <circle fill="#BBDDF5" cx="13.586" cy="13.669" r="9.5"></circle>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
