@@ -18,9 +18,23 @@
     <div class="container">
       <h1 class="title">Juego de Encriptado</h1>
       <div class="about">
-        <a class="about__btn" href="#">about</a>
+        <a class="about__btn" href="#"
+          ><ion-icon
+            class="about__btn-icon"
+            style="color: azure"
+            name="information-circle-outline"
+          ></ion-icon
+        ></a>
       </div>
       <main class="display">
+        <p class="display__error hidden">
+          <ion-icon
+            class="display__error-icon"
+            name="warning-outline"
+            style="padding-bottom: 2px"
+          ></ion-icon
+          >Invalid Text, Try again...
+        </p>
         <div class="display__input">
           <textarea
             class="display__input-text"
@@ -82,6 +96,31 @@
           </div>
         </div>
       </main>
+    </div>
+
+    <div class="info hidden">
+      <p class="info__version">
+        <span class="span-text">Version: </span> 2.0.0
+      </p>
+      <p class="info__description">
+        <span class="span-text">Description:</span> Challenge de
+        <a href="https://www.aluracursos.com/" target="_blank"
+          >Oracle - Alura.</a
+        >
+        Encriptador y desencriptador de Palabras.
+      </p>
+      <p class="info__author">
+        <span class="span-text">Author:</span>Alvaro Cayo<a
+          class=""
+          href="https://github.com/albored"
+          target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+      </p>
+
+      <button class="btn btn-home">
+        <ion-icon name="home-outline"></ion-icon> Back to Home
+      </button>
     </div>
 
     <script

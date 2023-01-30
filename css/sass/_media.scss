@@ -1,0 +1,33 @@
+@media (max-width: 912px) {
+  .container {
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .display {
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+
+    &__input {
+      width: 100%;
+      height: 90%;
+    }
+    &__output {
+      width: 100%;
+      height: 90%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+}
